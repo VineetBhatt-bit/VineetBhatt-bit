@@ -1,0 +1,21 @@
+name: Contribution Signal
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-signal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Keep profile healthy
+        run: |
+          echo "Contribution signal workflow online."
+          echo "Profile assets are self-contained; no external image service required."

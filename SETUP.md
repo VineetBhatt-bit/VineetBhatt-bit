@@ -1,44 +1,25 @@
-# VineetBhatt-bit — GitHub Command Center
+# V2 — Animated Developer OS
 
-This folder is the complete profile package.
+This version intentionally removes the fragile external stat/stat-graph images from V1 and uses self-contained local GIF assets instead.
 
-## Publish
+## Replace your current profile
 
-1. Create a **public** GitHub repository named exactly:
-   `VineetBhatt-bit`
+From the extracted V2 folder:
 
-2. Do NOT initialize it with a README, license, or `.gitignore`.
+```bash
+cd ~/Downloads/VineetBhatt_GitHub_Command_Center_V2
+git add .
+git commit -m "feat: redesign profile as animated developer OS"
+git push
+```
 
-3. Put the package contents into the repository root:
-   - `README.md`
-   - `assets/hero-command-center.svg`
-   - `assets/neon-signal.svg`
-   - `assets/terminal-loop.gif`
-   - `.github/workflows/snake.yml`
+Because your repository is already connected to GitHub, you do not need to add the remote again.
 
-4. Commit and push to the `main` branch. The included GitHub Action will generate the animated contribution snake and publish it to `gh-pages`.
+## What changed
 
-5. Open:
-   `https://github.com/VineetBhatt-bit`
-
-6. In GitHub profile settings, pin:
-   - Trade-Mind
-   - WAREX
-   - DHARMAVERSE
-   - finance-tracker-ai
-   - AI-Resume-Analyzer
-   - TradeLearn-AI
-
-7. For each flagship repo, upgrade its README with:
-   - hero image
-   - live/demo link
-   - screenshots
-   - architecture diagram
-   - feature list
-   - setup
-   - tests
-   - roadmap
-
-## Important
-
-The profile README uses external dynamic image services for stats/activity cards. They are presentation layers, not evidence of technical ability. Keep the repository content itself reproducible and accurate.
+- V1-style plain Markdown tables were minimized.
+- The first screen is now one large animated dashboard.
+- Flagship projects are shown in an animated project matrix.
+- Stack is shown in an animated signal panel.
+- Broken external stat/activity images were removed.
+- The profile is now mostly self-contained assets stored inside the repository.
