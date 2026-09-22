@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" role="img">
+<defs>
+ <radialGradient id="core"><stop offset="0" stop-color="#ffffff"/><stop offset=".2" stop-color="#00f7ff"/><stop offset="1" stop-color="#9b5cff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="g"><stop stop-color="#00f7ff"/><stop offset=".5" stop-color="#9b5cff"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+ <style>
+   .spin { animation: r 10s linear infinite; transform-origin:500px 95px; }
+   .spin2 { animation:r 7s linear infinite reverse; transform-origin:500px 95px; }
+   .pulse {animation:p 2s ease-in-out infinite}
+   @keyframes r {to{transform:rotate(360deg)}} @keyframes p{50%{opacity:.35}}
+ </style>
+</defs>
+<rect width="1000" height="190" rx="20" fill="#05070d" stroke="#00f7ff" stroke-opacity=".16"/>
+<circle cx="500" cy="95" r="58" fill="url(#core)" class="pulse"/>
+<g class="spin">
+ <ellipse cx="500" cy="95" rx="240" ry="48" fill="none" stroke="url(#g)" stroke-width="2"/>
+ <circle cx="740" cy="95" r="6" fill="#00f7ff"/>
+</g>
+<g class="spin2">
+ <ellipse cx="500" cy="95" rx="165" ry="82" fill="none" stroke="url(#g)" stroke-width="2" opacity=".65"/>
+ <circle cx="500" cy="13" r="5" fill="#ff4fd8"/>
+</g>
+<circle cx="500" cy="95" r="22" fill="#070b13" stroke="#00f7ff"/>
+<text x="500" y="91" text-anchor="middle" fill="#fff" font-family="monospace" font-size="12">VINEET</text>
+<text x="500" y="108" text-anchor="middle" fill="#00f7ff" font-family="monospace" font-size="9">BUILD CORE</text>
+<text x="36" y="35" fill="#c9d3e3" font-family="monospace" font-size="12">SYSTEM ORBIT</text>
+<text x="36" y="56" fill="#6f7c91" font-family="monospace" font-size="10">AI · SYSTEMS · PRODUCT</text>
+</svg>
