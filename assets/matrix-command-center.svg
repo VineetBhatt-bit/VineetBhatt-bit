@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="t d">
+<title id="t">Vineet Bhatt Matrix Engineering Lab</title>
+<desc id="d">A dark matrix-inspired engineering command center for Vineet Bhatt.</desc>
+<defs>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#65ff9d"/><stop offset=".5" stop-color="#00eaff"/><stop offset="1" stop-color="#9a6cff"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b1715" stop-opacity=".92"/><stop offset="1" stop-color="#06100f" stop-opacity=".84"/></linearGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#6bff9f" stroke-opacity=".055"/></pattern>
+  <pattern id="rain" width="82" height="190" patternUnits="userSpaceOnUse">
+    <g fill="#2bff86" fill-opacity=".25" font-family="monospace" font-size="14">
+      <text x="8" y="18">0</text><text x="8" y="38">1</text><text x="8" y="58">&gt;</text><text x="8" y="78">1</text><text x="8" y="98">0</text><text x="8" y="118">A</text><text x="8" y="138">F</text><text x="8" y="158">&lt;</text><text x="8" y="178">1</text>
+      <text x="45" y="35">1</text><text x="45" y="55">0</text><text x="45" y="75">1</text><text x="45" y="95">%</text><text x="45" y="115">B</text><text x="45" y="135">7</text><text x="45" y="155">0</text><text x="45" y="175">1</text>
+    </g>
+  </pattern>
+</defs>
+
+<rect width="1200" height="430" rx="28" fill="#020605"/>
+<rect width="1200" height="430" rx="28" fill="url(#rain)"/>
+<rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+
+<!-- ambient glow -->
+<ellipse cx="970" cy="105" rx="290" ry="150" fill="#00eaff" fill-opacity=".06"/>
+<ellipse cx="210" cy="355" rx="280" ry="120" fill="#65ff9d" fill-opacity=".045"/>
+
+<!-- main glass -->
+<rect x="42" y="38" width="1116" height="354" rx="24" fill="url(#glass)" stroke="url(#edge)" stroke-opacity=".58" stroke-width="2"/>
+<rect x="60" y="56" width="1080" height="42" rx="12" fill="#07100f" stroke="#65ff9d" stroke-opacity=".16"/>
+<circle cx="83" cy="77" r="5" fill="#65ff9d"/>
+<circle cx="101" cy="77" r="5" fill="#ffd36a"/>
+<circle cx="119" cy="77" r="5" fill="#ff6b9f"/>
+<text x="145" y="83" fill="#94a89d" font-family="monospace" font-size="12">VINEET@ENGINEERING-LAB  //  MATRIX CHANNEL</text>
+<text x="1088" y="83" text-anchor="end" fill="#65ff9d" font-family="monospace" font-size="11">● LIVE</text>
+
+<!-- left content -->
+<text x="82" y="150" fill="#65ff9d" font-family="monospace" font-size="13" letter-spacing="2">ACCESS GRANTED</text>
+<text x="82" y="205" fill="#f2fff7" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">VINEET BHATT</text>
+<text x="84" y="243" fill="#00eaff" font-family="monospace" font-size="15">AI × ML × SYSTEMS × FULL-STACK × PRODUCT</text>
+<text x="84" y="276" fill="#b7c9bf" font-family="monospace" font-size="12">building intelligent software across models, algorithms, APIs, data and interfaces.</text>
+
+<rect x="84" y="305" width="480" height="56" rx="14" fill="#061411" stroke="#65ff9d" stroke-opacity=".22"/>
+<text x="103" y="328" fill="#7e9688" font-family="monospace" font-size="10">BUILD LOOP</text>
+<text x="103" y="347" fill="#e6fff0" font-family="monospace" font-size="11">IDEA → BUILD → TEST → DOCUMENT → ITERATE</text>
+
+<!-- right core / data HUD -->
+<g filter="url(#glow)">
+  <circle cx="930" cy="216" r="105" fill="none" stroke="#65ff9d" stroke-opacity=".28"/>
+  <circle cx="930" cy="216" r="79" fill="none" stroke="#00eaff" stroke-opacity=".36"/>
+  <circle cx="930" cy="216" r="53" fill="none" stroke="#9a6cff" stroke-opacity=".45"/>
+</g>
+<circle cx="930" cy="216" r="39" fill="#04100d" stroke="#e7fff0" stroke-opacity=".52" stroke-width="2"/>
+<text x="930" y="212" text-anchor="middle" fill="#f4fff7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">VB</text>
+<text x="930" y="232" text-anchor="middle" fill="#65ff9d" font-family="monospace" font-size="8">CORE</text>
+
+<g stroke-linecap="round">
+  <path d="M826 216H744" stroke="#65ff9d" stroke-opacity=".45"/>
+  <path d="M1014 216H1085" stroke="#00eaff" stroke-opacity=".45"/>
+  <path d="M930 111V85" stroke="#9a6cff" stroke-opacity=".45"/>
+  <path d="M930 321V345" stroke="#65ff9d" stroke-opacity=".45"/>
+</g>
+
+<g font-family="monospace" font-size="10">
+  <text x="725" y="207" text-anchor="end" fill="#a8bdb2">AI / ML</text>
+  <text x="1095" y="207" fill="#a8bdb2">SYSTEMS</text>
+  <text x="930" y="75" text-anchor="middle" fill="#a8bdb2">FULL-STACK</text>
+  <text x="930" y="361" text-anchor="middle" fill="#a8bdb2">PRODUCT</text>
+</g>
+
+<g fill="#65ff9d">
+  <circle cx="744" cy="216" r="4"/><circle cx="1085" cy="216" r="4"/><circle cx="930" cy="85" r="4"/><circle cx="930" cy="345" r="4"/>
+</g>
+
+<!-- tiny telemetry -->
+<text x="1067" y="128" text-anchor="end" fill="#5e7569" font-family="monospace" font-size="9">SYS 01</text>
+<text x="1067" y="145" text-anchor="end" fill="#65ff9d" font-family="monospace" font-size="11">ONLINE</text>
+<text x="1067" y="165" text-anchor="end" fill="#5e7569" font-family="monospace" font-size="9">BUILD 86%</text>
+</svg>
