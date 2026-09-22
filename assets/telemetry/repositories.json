@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-22T17:55:11.306809+00:00",
+  "source": "GitHub REST API",
+  "owner": "VineetBhatt-bit",
+  "repository_count": 9,
+  "repositories": [
+    {
+      "name": "AI-Resume-Analyzer",
+      "description": null,
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-05-03T12:53:06Z",
+      "updated_at": "2026-05-13T04:59:14Z",
+      "pushed_at": "2026-05-03T13:31:52Z",
+      "html_url": "https://github.com/VineetBhatt-bit/AI-Resume-Analyzer"
+    },
+    {
+      "name": "DHARMAVERSE",
+      "description": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-06-15T13:22:49Z",
+      "updated_at": "2026-06-15T16:12:00Z",
+      "pushed_at": "2026-06-15T16:11:02Z",
+      "html_url": "https://github.com/VineetBhatt-bit/DHARMAVERSE"
+    },
+    {
+      "name": "finance-tracker-ai",
+      "description": null,
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-04-04T12:27:51Z",
+      "updated_at": "2026-04-07T17:27:46Z",
+      "pushed_at": "2026-04-07T17:27:42Z",
+      "html_url": "https://github.com/VineetBhatt-bit/finance-tracker-ai"
+    },
+    {
+      "name": "PBL",
+      "description": "For Python PBL SEM II",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-05-13T04:50:31Z",
+      "updated_at": "2026-05-15T05:56:17Z",
+      "pushed_at": "2026-05-15T05:56:12Z",
+      "html_url": "https://github.com/VineetBhatt-bit/PBL"
+    },
+    {
+      "name": "Sentiment-Analysis-Predictor",
+      "description": null,
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-05-12T22:37:17Z",
+      "updated_at": "2026-05-13T04:59:15Z",
+      "pushed_at": "2026-05-13T03:11:09Z",
+      "html_url": "https://github.com/VineetBhatt-bit/Sentiment-Analysis-Predictor"
+    },
+    {
+      "name": "Trade-Mind",
+      "description": null,
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-09-11T19:48:26Z",
+      "updated_at": "2026-09-11T19:58:03Z",
+      "pushed_at": "2026-09-11T19:57:59Z",
+      "html_url": "https://github.com/VineetBhatt-bit/Trade-Mind"
+    },
+    {
+      "name": "TradeLearn-AI",
+      "description": null,
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-04-07T17:52:09Z",
+      "updated_at": "2026-05-13T04:59:13Z",
+      "pushed_at": "2026-04-19T02:20:01Z",
+      "html_url": "https://github.com/VineetBhatt-bit/TradeLearn-AI"
+    },
+    {
+      "name": "VineetBhatt-bit",
+      "description": "AI \u00d7 ML \u00d7 Systems \u00d7 Full-Stack \u00d7 Product Engineering",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-09-22T11:13:02Z",
+      "updated_at": "2026-09-22T17:44:39Z",
+      "pushed_at": "2026-09-22T17:44:34Z",
+      "html_url": "https://github.com/VineetBhatt-bit/VineetBhatt-bit"
+    },
+    {
+      "name": "WAREX",
+      "description": "WAREX \u2014 Warehouse Inventory & Order Management System using C Data Structures and C++ OOP",
+      "language": "C++",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-08-29T07:11:05Z",
+      "updated_at": "2026-08-29T07:50:11Z",
+      "pushed_at": "2026-08-29T07:47:30Z",
+      "html_url": "https://github.com/VineetBhatt-bit/WAREX"
+    }
+  ]
+}
