@@ -1,0 +1,22 @@
+name: Profile Check
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  profile-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify profile assets
+        run: |
+          test -f README.md
+          test -f assets/hero.gif
+          test -f assets/signal.gif
+          test -f assets/pipeline.gif
+          echo "Profile assets verified."

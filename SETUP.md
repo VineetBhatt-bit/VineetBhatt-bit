@@ -1,25 +1,24 @@
-# V2 — Animated Developer OS
+# V3 — Premium Animated Profile
 
-This version intentionally removes the fragile external stat/stat-graph images from V1 and uses self-contained local GIF assets instead.
+V3 replaces the previous “giant cyberpunk poster” layout with a tighter hierarchy:
 
-## Replace your current profile
+1. One cinematic animated hero.
+2. One slim animated signal strip.
+3. One architecture animation.
+4. Real Markdown sections for projects and engineering focus.
+5. GitHub's own contribution/profile UI remains visible lower on the page.
 
-From the extracted V2 folder:
+## Install over your current profile repo
+
+From the existing repository folder:
 
 ```bash
-cd ~/Downloads/VineetBhatt_GitHub_Command_Center_V2
-git add .
-git commit -m "feat: redesign profile as animated developer OS"
+rm -rf assets
+cp -R ../VineetBhatt_GitHub_Command_Center_V3/assets .
+rm -rf .github
+cp -R ../VineetBhatt_GitHub_Command_Center_V3/.github .
+cp ../VineetBhatt_GitHub_Command_Center_V3/README.md .
+git add -A
+git commit -m "feat: redesign profile with premium animated system"
 git push
 ```
-
-Because your repository is already connected to GitHub, you do not need to add the remote again.
-
-## What changed
-
-- V1-style plain Markdown tables were minimized.
-- The first screen is now one large animated dashboard.
-- Flagship projects are shown in an animated project matrix.
-- Stack is shown in an animated signal panel.
-- Broken external stat/activity images were removed.
-- The profile is now mostly self-contained assets stored inside the repository.
