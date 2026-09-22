@@ -1,8 +1,12 @@
 <div align="center">
 
-<img src="assets/hero.gif" width="100%" alt="Vineet Bhatt — animated developer profile"/>
+<img src="assets/matrix-command-center.svg" width="100%" alt="Vineet Bhatt — Matrix Engineering Lab"/>
 
-<img src="assets/signal.gif" width="100%" alt="Animated engineering signal"/>
+</div>
+
+<div align="center">
+
+<sub>◈ MATRIX CHANNEL // ENGINEERING LAB // AI × ML × SYSTEMS</sub>
 
 </div>
 
